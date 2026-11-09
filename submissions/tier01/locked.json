@@ -1,8 +1,0 @@
-{
-  "ciphertext_hex": "968e64f7fc73e7802ca2b969a6b969b3a52ce7823fa6a169b0a52ca9ed3dafa869a4a126a4a669b5a828a3be69f1f77df0",
-  "method": "repeating XOR, 3-byte key",
-  "public_parameters": {
-    "n_bits": 24
-  },
-  "tier": 1
-}
