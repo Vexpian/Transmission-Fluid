@@ -1,0 +1,22 @@
+# Official scoring settings. Do not edit: organizers score with this exact file.
+basis_gates: [rz, sx, x, cx]
+coupling_map: null        # all-to-all
+optimization_level: 1
+seed_transpiler: 12345
+initial_layout: null
+weights:
+  two_qubit_gates: 0.4
+  depth: 0.3
+  total_gates: 0.2
+  active_qubits: 0.1
+solve_timeout_s: 120
+transpile_timeout_s: 120
+
+# Points for each tier. Pool for simplicity = simplicity_share x tier points.
+tier_points: {1: 1, 2: 2, 3: 2, 4: 3, 5: 4, 6: 4, 7: 5, 8: 6, 9: 6, 10: 7}
+simplicity_share: 0.375
+
+# A scored circuit below these sizes is flagged for a judge to review. A flag
+# costs nothing by itself. It stops a trivial circuit from setting the "best"
+# value for a tier while the real work happens classically.
+review_min_active_qubits: {1: 25, 2: 1, 3: 7, 4: 20, 5: 10, 6: 14, 7: 8, 8: 7, 9: 8, 10: 9}
