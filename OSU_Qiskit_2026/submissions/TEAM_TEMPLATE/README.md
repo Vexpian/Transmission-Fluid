@@ -1,8 +1,8 @@
-# Team [TEAM NAME]
+# Team: [TRANSMISSION FLUID]
 
-**Members:** [NAMES]
+**Members:** [CVETKO D'MARA, HEVIN JACKSON, KELLY SWEET]
 
-**Tiers attempted:** [LIST]
+**Tiers attempted:** [TIERS 1, and 2]
 
 **Write-up:** [WRITEUP.md](WRITEUP.md)
 
